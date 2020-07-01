@@ -1,0 +1,16 @@
+# Setting Eslint 
+
+**.eslintrc.json**
+
+```json
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-var": "warn",
+    "no-unused-vars": "off",
+    "prefer-const": "off"
+  }
+}
+```
